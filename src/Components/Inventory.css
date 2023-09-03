@@ -1,0 +1,12 @@
+.inventory{
+    position: absolute;
+    height: 92vh;
+    margin-top: 8vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.properties{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

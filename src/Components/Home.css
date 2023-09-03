@@ -1,0 +1,74 @@
+.home{
+    position: absolute;
+    background-color: aliceblue;
+    width: 100%;
+    margin-top: 8vh;
+    z-index: 0;
+}
+.home-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.sidebar{
+    width: 20%;
+    background-color: cornsilk;
+    /* min-height: 92vh; */
+}
+.main-content{
+    width: 80%;
+    margin-left: auto;
+    min-height: 92vh;
+    /* background-color: #11a0b3; */
+
+}
+.btn{
+    border-style: solid;
+    border-color: green;
+    padding: 10px;
+    background-color: rgb(130, 210, 130);
+    border-radius: 10px;
+}
+.search{
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'SFPro';
+    padding: 10px 0 10px 0;
+}
+.searchButton{
+    padding: 5px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: white;
+    cursor: pointer;
+}
+.searchBox{
+    padding: 5px;
+    width: 30%;
+    border: 3px solid #00B4CC;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-right: none;
+    outline: 0;
+    font-family: 'SFPro';
+    padding-left: 10px;
+}
+.searchBox:focus{
+    border-color: #11a0b3;
+}
+.datagrid img{
+    width: 150px;
+    height: 220px;
+}
+.datagrid{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    grid-template-rows: auto;
+    gap: 5em;
+}

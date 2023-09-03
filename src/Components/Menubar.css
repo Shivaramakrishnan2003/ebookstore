@@ -1,0 +1,32 @@
+.navbar{
+    position: fixed;
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    z-index: 5;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#logo{
+    color: rgb(202, 202, 202);
+    font-family: 'SFPro';
+    text-decoration: none;
+}
+.items{
+    display: flex;
+    font-family: 'SFPro';
+    flex-direction: row;
+    align-items: center;
+}
+.main-menu{
+    padding: 0.5rem;
+}
+.icons{
+    text-decoration: none;
+    color: rgb(202, 202, 202);
+    font-weight: 700;
+    margin: 1px;
+    position: relative;
+    margin-top: -4px;
+}

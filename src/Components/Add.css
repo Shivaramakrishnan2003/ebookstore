@@ -1,0 +1,43 @@
+.add{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 8vh;
+    height: 92vh;
+    width: 100%;
+    background-color: antiquewhite;
+}
+.add-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    /* background-color: aqua; */
+}
+.bookbox{
+    padding: 5px;
+    border-radius: 5px;
+    padding: 6px;
+    margin-left: 10px;
+    border-style: initial;
+    width: 150px;
+}
+.form{
+    display: grid;
+    width: 1200px;
+    grid-template-columns: repeat(3, 3fr);
+    border-style: solid;
+    border-radius: 20px;
+    /* background-color: aqua; */
+}
+.form-item{
+    padding: 50px;
+    font-family: 'SFPro';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
